@@ -1,6 +1,6 @@
 diff -Naur pychem-1.0/src/pychem/asa.py pychem-1.0.3/src/pychem/asa.py
 --- pychem-1.0/src/pychem/asa.py	2012-11-09 08:58:45.000000000 -0800
-+++ pychem-1.0.3/src/pychem/asa.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/asa.py	2017-01-20 11:03:44.676668232 -0800
 @@ -11,7 +11,7 @@
  
  
@@ -19,7 +19,7 @@ diff -Naur pychem-1.0/src/pychem/asa.py pychem-1.0.3/src/pychem/asa.py
  
 diff -Naur pychem-1.0/src/pychem/AtomProperty.py pychem-1.0.3/src/pychem/AtomProperty.py
 --- pychem-1.0/src/pychem/AtomProperty.py	2012-09-19 06:07:34.000000000 -0700
-+++ pychem-1.0.3/src/pychem/AtomProperty.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/AtomProperty.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,106 +1,106 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -235,7 +235,7 @@ diff -Naur pychem-1.0/src/pychem/AtomProperty.py pychem-1.0.3/src/pychem/AtomPro
 +    print(GetRelativeAtomicProperty(element='S',propertyname='En'))
 diff -Naur pychem-1.0/src/pychem/basak.py pychem-1.0.3/src/pychem/basak.py
 --- pychem-1.0/src/pychem/basak.py	2012-11-14 05:38:49.000000000 -0800
-+++ pychem-1.0.3/src/pychem/basak.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/basak.py	2017-01-20 11:03:44.676668232 -0800
 @@ -538,7 +538,7 @@
      smi5=['CCCCCC','CCC(C)CC','CC(C)CCC','CC(C)C(C)C','CCCCCN','c1ccccc1N']
      for index, smi in enumerate(smi5):
@@ -250,7 +250,7 @@ diff -Naur pychem-1.0/src/pychem/basak.py pychem-1.0.3/src/pychem/basak.py
 +        print(len(Getbasak(m)))
 diff -Naur pychem-1.0/src/pychem/bcut.py pychem-1.0.3/src/pychem/bcut.py
 --- pychem-1.0/src/pychem/bcut.py	2012-11-14 05:38:39.000000000 -0800
-+++ pychem-1.0.3/src/pychem/bcut.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/bcut.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,227 +1,227 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -708,7 +708,7 @@ diff -Naur pychem-1.0/src/pychem/bcut.py pychem-1.0.3/src/pychem/bcut.py
 +        print(len(GetBurden(m)))
 diff -Naur pychem-1.0/src/pychem/charge.py pychem-1.0.3/src/pychem/charge.py
 --- pychem-1.0/src/pychem/charge.py	2012-11-16 23:02:24.000000000 -0800
-+++ pychem-1.0.3/src/pychem/charge.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/charge.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,738 +1,738 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -2188,7 +2188,7 @@ diff -Naur pychem-1.0/src/pychem/charge.py pychem-1.0.3/src/pychem/charge.py
 +
 diff -Naur pychem-1.0/src/pychem/connectivity.py pychem-1.0.3/src/pychem/connectivity.py
 --- pychem-1.0/src/pychem/connectivity.py	2012-09-19 06:04:15.000000000 -0700
-+++ pychem-1.0.3/src/pychem/connectivity.py	2017-01-20 10:55:11.765587226 -0800
++++ pychem-1.0.3/src/pychem/connectivity.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1197,7 +1197,7 @@
  
      for index, smi in enumerate(smis):
@@ -2203,7 +2203,7 @@ diff -Naur pychem-1.0/src/pychem/connectivity.py pychem-1.0.3/src/pychem/connect
 +        print('\t',len(GetConnectivity(m)))
 diff -Naur pychem-1.0/src/pychem/constitution.py pychem-1.0.3/src/pychem/constitution.py
 --- pychem-1.0/src/pychem/constitution.py	2012-11-14 05:37:33.000000000 -0800
-+++ pychem-1.0.3/src/pychem/constitution.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/constitution.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,718 +1,718 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -3643,7 +3643,7 @@ diff -Naur pychem-1.0/src/pychem/constitution.py pychem-1.0.3/src/pychem/constit
 +    
 diff -Naur pychem-1.0/src/pychem/cpsa.py pychem-1.0.3/src/pychem/cpsa.py
 --- pychem-1.0/src/pychem/cpsa.py	2012-11-14 08:50:45.000000000 -0800
-+++ pychem-1.0.3/src/pychem/cpsa.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/cpsa.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,590 +1,590 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -4250,7 +4250,7 @@ diff -Naur pychem-1.0/src/pychem/cpsa.py pychem-1.0.3/src/pychem/cpsa.py
 +##############################################################################
 +"""
 +
-+import .asa
++import asa
 +import pybel
 +from .GeoOpt import GetAtomClassList, _ReadCoordinates
 +
@@ -4827,7 +4827,7 @@ diff -Naur pychem-1.0/src/pychem/cpsa.py pychem-1.0.3/src/pychem/cpsa.py
 +    print(len(result))
 diff -Naur pychem-1.0/src/pychem/estate.py pychem-1.0.3/src/pychem/estate.py
 --- pychem-1.0/src/pychem/estate.py	2012-11-14 09:28:25.000000000 -0800
-+++ pychem-1.0.3/src/pychem/estate.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/estate.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,414 +1,414 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -5261,7 +5261,7 @@ diff -Naur pychem-1.0/src/pychem/estate.py pychem-1.0.3/src/pychem/estate.py
 +from rdkit.Chem.EState import Fingerprinter  as ESFP
 +from rdkit import Chem
 +
-+import .AtomTypes as ATEstate
++import AtomTypes as ATEstate
 +import numpy
 +
 +Version=1.0
@@ -5659,7 +5659,7 @@ diff -Naur pychem-1.0/src/pychem/estate.py pychem-1.0.3/src/pychem/estate.py
 +    
 diff -Naur pychem-1.0/src/pychem/fingerprint.py pychem-1.0.3/src/pychem/fingerprint.py
 --- pychem-1.0/src/pychem/fingerprint.py	2012-10-15 19:37:43.000000000 -0700
-+++ pychem-1.0.3/src/pychem/fingerprint.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/fingerprint.py	2017-01-20 11:03:44.676668232 -0800
 @@ -16,7 +16,7 @@
  from rdkit.Chem import MACCSkeys
  from rdkit.Chem import AllChem
@@ -5690,7 +5690,7 @@ diff -Naur pychem-1.0/src/pychem/fingerprint.py pychem-1.0.3/src/pychem/fingerpr
 +    
 diff -Naur pychem-1.0/src/pychem/geary.py pychem-1.0.3/src/pychem/geary.py
 --- pychem-1.0/src/pychem/geary.py	2012-11-09 23:18:41.000000000 -0800
-+++ pychem-1.0.3/src/pychem/geary.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/geary.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,237 +1,237 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -6168,7 +6168,7 @@ diff -Naur pychem-1.0/src/pychem/geary.py pychem-1.0.3/src/pychem/geary.py
 +        print(GetGearyAuto(m))
 diff -Naur pychem-1.0/src/pychem/geometric.py pychem-1.0.3/src/pychem/geometric.py
 --- pychem-1.0/src/pychem/geometric.py	2012-11-14 06:01:01.000000000 -0800
-+++ pychem-1.0.3/src/pychem/geometric.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/geometric.py	2017-01-20 11:03:44.676668232 -0800
 @@ -1,534 +1,534 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -7240,7 +7240,7 @@ diff -Naur pychem-1.0/src/pychem/geometric.py pychem-1.0.3/src/pychem/geometric.
 +    print(len(result))
 diff -Naur pychem-1.0/src/pychem/GeoOpt.py pychem-1.0.3/src/pychem/GeoOpt.py
 --- pychem-1.0/src/pychem/GeoOpt.py	2012-11-13 23:45:03.000000000 -0800
-+++ pychem-1.0.3/src/pychem/GeoOpt.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/GeoOpt.py	2017-01-20 11:03:44.680668323 -0800
 @@ -1,208 +1,208 @@
 -"""
 -This module is used for optimizing molecular structures and getting ARC file
@@ -7462,7 +7462,7 @@ diff -Naur pychem-1.0/src/pychem/GeoOpt.py pychem-1.0.3/src/pychem/GeoOpt.py
 +
 +
 +import pybel
-+import .vector3d
++import vector3d
 +
 +import os
 +import string
@@ -7660,7 +7660,7 @@ diff -Naur pychem-1.0/src/pychem/GeoOpt.py pychem-1.0.3/src/pychem/GeoOpt.py
 +
 diff -Naur pychem-1.0/src/pychem/getmol.py pychem-1.0.3/src/pychem/getmol.py
 --- pychem-1.0/src/pychem/getmol.py	2012-11-17 04:15:08.000000000 -0800
-+++ pychem-1.0.3/src/pychem/getmol.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/getmol.py	2017-01-20 11:03:44.680668323 -0800
 @@ -195,13 +195,13 @@
  
  if __name__=="__main__":
@@ -7682,7 +7682,7 @@ diff -Naur pychem-1.0/src/pychem/getmol.py pychem-1.0.3/src/pychem/getmol.py
  
 diff -Naur pychem-1.0/src/pychem/kappa.py pychem-1.0.3/src/pychem/kappa.py
 --- pychem-1.0/src/pychem/kappa.py	2012-11-17 05:49:58.000000000 -0800
-+++ pychem-1.0.3/src/pychem/kappa.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/kappa.py	2017-01-20 11:03:44.680668323 -0800
 @@ -283,8 +283,8 @@
      smis = ['CCCC','CCCCC','CCCCCC','CC(N)C(=O)O','CC(N)C(=O)[O-].[Na+]']
      for index, smi in enumerate(smis):
@@ -7698,7 +7698,7 @@ diff -Naur pychem-1.0/src/pychem/kappa.py pychem-1.0.3/src/pychem/kappa.py
  
 diff -Naur pychem-1.0/src/pychem/moe.py pychem-1.0.3/src/pychem/moe.py
 --- pychem-1.0/src/pychem/moe.py	2012-11-16 23:24:34.000000000 -0800
-+++ pychem-1.0.3/src/pychem/moe.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/moe.py	2017-01-20 11:03:44.680668323 -0800
 @@ -1,243 +1,243 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -8188,7 +8188,7 @@ diff -Naur pychem-1.0/src/pychem/moe.py pychem-1.0.3/src/pychem/moe.py
 +
 diff -Naur pychem-1.0/src/pychem/molproperty.py pychem-1.0.3/src/pychem/molproperty.py
 --- pychem-1.0/src/pychem/molproperty.py	2012-11-16 23:23:20.000000000 -0800
-+++ pychem-1.0.3/src/pychem/molproperty.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/molproperty.py	2017-01-20 11:03:44.680668323 -0800
 @@ -1,273 +1,273 @@
 -"""
 -##############################################################################
@@ -8738,7 +8738,7 @@ diff -Naur pychem-1.0/src/pychem/molproperty.py pychem-1.0.3/src/pychem/molprope
 +    #f.close()
 diff -Naur pychem-1.0/src/pychem/moran.py pychem-1.0.3/src/pychem/moran.py
 --- pychem-1.0/src/pychem/moran.py	2012-09-19 06:04:05.000000000 -0700
-+++ pychem-1.0.3/src/pychem/moran.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/moran.py	2017-01-20 11:03:44.680668323 -0800
 @@ -1,237 +1,237 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -9216,7 +9216,7 @@ diff -Naur pychem-1.0/src/pychem/moran.py pychem-1.0.3/src/pychem/moran.py
 +        print(GetMoranAuto(m))
 diff -Naur pychem-1.0/src/pychem/moreaubroto.py pychem-1.0.3/src/pychem/moreaubroto.py
 --- pychem-1.0/src/pychem/moreaubroto.py	2012-11-09 08:21:17.000000000 -0800
-+++ pychem-1.0.3/src/pychem/moreaubroto.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/moreaubroto.py	2017-01-20 11:03:44.680668323 -0800
 @@ -1,219 +1,219 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -9658,7 +9658,7 @@ diff -Naur pychem-1.0/src/pychem/moreaubroto.py pychem-1.0.3/src/pychem/moreaubr
 +        print(len(GetMoreauBrotoAuto(m)))
 diff -Naur pychem-1.0/src/pychem/morse.py pychem-1.0.3/src/pychem/morse.py
 --- pychem-1.0/src/pychem/morse.py	2012-11-14 05:49:18.000000000 -0800
-+++ pychem-1.0.3/src/pychem/morse.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/morse.py	2017-01-20 11:03:44.684668416 -0800
 @@ -1,426 +1,426 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -10515,52 +10515,8 @@ diff -Naur pychem-1.0/src/pychem/morse.py pychem-1.0.3/src/pychem/morse.py
 +    print(len(GetMoRSE(inputmol)))
 diff -Naur pychem-1.0/src/pychem/pychem.py pychem-1.0.3/src/pychem/pychem.py
 --- pychem-1.0/src/pychem/pychem.py	2012-11-17 05:48:01.000000000 -0800
-+++ pychem-1.0.3/src/pychem/pychem.py	2017-01-20 10:55:11.769587305 -0800
-@@ -17,31 +17,31 @@
- ##############################################################################
- """
- 
--import getmol
--import kappa
--import charge
--import connectivity 
--import constitution 
--import estate
--import geary
--import moe
--import molproperty 
--import moran
--import moreaubroto 
--import topology
--import fingerprint
--import basak
--import cpsa
--import geometric
--import bcut
--import morse
--import rdf
--import whim
-+import .getmol
-+import .kappa
-+import .charge
-+import .connectivity 
-+import .constitution 
-+import .estate
-+import .geary
-+import .moe
-+import .molproperty 
-+import .moran
-+import .moreaubroto 
-+import .topology
-+import .fingerprint
-+import .basak
-+import .cpsa
-+import .geometric
-+import .bcut
-+import .morse
-+import .rdf
-+import .whim
- import pybel
++++ pychem-1.0.3/src/pychem/pychem.py	2017-01-20 11:03:44.684668416 -0800
+@@ -41,7 +41,7 @@
  
  from rdkit import Chem
  import string
@@ -10632,7 +10588,7 @@ diff -Naur pychem-1.0/src/pychem/pychem.py pychem-1.0.3/src/pychem/pychem.py
 +    print(len(drug.GetAllDescriptor()))
 diff -Naur pychem-1.0/src/pychem/quanchem.py pychem-1.0.3/src/pychem/quanchem.py
 --- pychem-1.0/src/pychem/quanchem.py	2012-11-12 22:20:31.000000000 -0800
-+++ pychem-1.0.3/src/pychem/quanchem.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/quanchem.py	2017-01-20 11:03:44.684668416 -0800
 @@ -1,199 +1,199 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -11035,7 +10991,7 @@ diff -Naur pychem-1.0/src/pychem/quanchem.py pychem-1.0.3/src/pychem/quanchem.py
 +    print(len(result))
 diff -Naur pychem-1.0/src/pychem/radius.py pychem-1.0.3/src/pychem/radius.py
 --- pychem-1.0/src/pychem/radius.py	2011-04-09 21:05:22.000000000 -0700
-+++ pychem-1.0.3/src/pychem/radius.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/radius.py	2017-01-20 11:03:44.684668416 -0800
 @@ -30,4 +30,4 @@
   'AU': 1.8,
   'LI': 1.8,
@@ -11045,7 +11001,7 @@ diff -Naur pychem-1.0/src/pychem/radius.py pychem-1.0.3/src/pychem/radius.py
 +}
 diff -Naur pychem-1.0/src/pychem/rdf.py pychem-1.0.3/src/pychem/rdf.py
 --- pychem-1.0/src/pychem/rdf.py	2012-11-14 05:50:07.000000000 -0800
-+++ pychem-1.0.3/src/pychem/rdf.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/rdf.py	2017-01-20 11:03:44.684668416 -0800
 @@ -1,408 +1,408 @@
 -# -*- coding: utf-8 -*-
 -"""
@@ -11865,7 +11821,7 @@ diff -Naur pychem-1.0/src/pychem/rdf.py pychem-1.0.3/src/pychem/rdf.py
 +    
 diff -Naur pychem-1.0/src/pychem/topology.py pychem-1.0.3/src/pychem/topology.py
 --- pychem-1.0/src/pychem/topology.py	2012-11-14 05:41:48.000000000 -0800
-+++ pychem-1.0.3/src/pychem/topology.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/topology.py	2017-01-20 11:03:44.684668416 -0800
 @@ -1110,8 +1110,8 @@
      smis = ['CCCC','CCCCC','CCCCCC','CC(N)C(=O)O','CC(N)C(=O)[O-]']
      for index, smi in enumerate(smis):
@@ -11881,7 +11837,7 @@ diff -Naur pychem-1.0/src/pychem/topology.py pychem-1.0.3/src/pychem/topology.py
  
 diff -Naur pychem-1.0/src/pychem/vector3d.py pychem-1.0.3/src/pychem/vector3d.py
 --- pychem-1.0/src/pychem/vector3d.py	2007-11-22 23:24:26.000000000 -0800
-+++ pychem-1.0.3/src/pychem/vector3d.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/vector3d.py	2017-01-20 11:03:44.684668416 -0800
 @@ -277,7 +277,7 @@
      for i in range(0, 3):
        for j in range(0, 3):
@@ -11893,7 +11849,7 @@ diff -Naur pychem-1.0/src/pychem/vector3d.py pychem-1.0.3/src/pychem/vector3d.py
    def __mul__(self, rhs):
 diff -Naur pychem-1.0/src/pychem/whim.py pychem-1.0.3/src/pychem/whim.py
 --- pychem-1.0/src/pychem/whim.py	2012-11-16 22:55:59.000000000 -0800
-+++ pychem-1.0.3/src/pychem/whim.py	2017-01-20 10:55:11.769587305 -0800
++++ pychem-1.0.3/src/pychem/whim.py	2017-01-20 11:03:44.684668416 -0800
 @@ -19,8 +19,8 @@
  import pybel
  import scipy
