@@ -5261,7 +5261,7 @@ diff -Naur pychem-1.0/src/pychem/estate.py pychem-1.0.3/src/pychem/estate.py
 +from rdkit.Chem.EState import Fingerprinter  as ESFP
 +from rdkit import Chem
 +
-+import AtomTypes as ATEstate
++from . import AtomTypes as ATEstate
 +import numpy
 +
 +Version=1.0
